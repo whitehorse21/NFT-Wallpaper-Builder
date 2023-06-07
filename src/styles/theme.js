@@ -5,14 +5,13 @@ let theme = createTheme();
 theme = createTheme({
   palette: {
     primary: {
-      main: '#29D4FF'
-    }
+      main: "#29D4FF",
+    },
   },
   typography: {
     fontFamily: ["Aeonik", "Sora", "Open Sans"].join(","),
     h2: {
       fontFamily: "Aeonik",
-      // fontSize: "56px",
       fontStyle: "normal",
       fontWeight: 800,
       letterSpacing: "0em",
@@ -42,7 +41,6 @@ theme = createTheme({
     },
     h1: {
       fontFamily: "Aeonik",
-      // fontSize: "64px",
       fontStyle: "normal",
       fontWeight: 800,
       lineHeight: "70px",
@@ -62,7 +60,6 @@ theme = createTheme({
     },
     h3: {
       fontFamily: "Aeonik",
-      // fontSize: "32px",
       fontStyle: "normal",
       fontWeight: 700,
       letterSpacing: "0em",
@@ -84,7 +81,6 @@ theme = createTheme({
       // fontSize: "18px",
       fontStyle: "normal",
       fontWeight: 300,
-      // lineHeight: "27px",
       letterSpacing: "0em",
       textAlign: "left",
       color: "#BBBBBB",
@@ -102,7 +98,6 @@ theme = createTheme({
     h5: {
       fontFamily: "Aeonik",
       fontWeight: 600,
-      // fontSize: 20,
       color: "#D0D0D0",
       fontSize: "0.9rem",
       "@media (min-width:600px)": {
@@ -136,24 +131,23 @@ theme = createTheme({
     MuiInputBase: {
       styleOverrides: {
         root: {
-            borderRadius: '100px !important',
-          },
-          input: {
-            paddingTop: '10px !important',
-            paddingBottom: '10px !important',
-          }
-        }
+          borderRadius: "100px !important",
+        },
+        input: {
+          paddingTop: "10px !important",
+          paddingBottom: "10px !important",
+        },
+      },
     },
     MuiInputAdornment: {
       styleOverrides: {
         root: {
           "& p": {
             color: "black",
-            fontWeight: "500"
-          } 
-          
-        }
-      }
+            fontWeight: "500",
+          },
+        },
+      },
     },
     MuiFormLabel: {
       styleOverrides: {
@@ -161,34 +155,32 @@ theme = createTheme({
           marginBottom: theme.spacing(1),
           color: "#525252",
           fontWeight: 500,
-        }
-      }
+        },
+      },
     },
     MuiFormControl: {
       styleOverrides: {
         root: {
           marginRight: theme.spacing(2), // jon todo. this adds double spacing, removed the nested one
-        }
-      }
+        },
+      },
     },
 
     MuiButton: {
       styleOverrides: {
         root: {
-          padding: "10px 20px"
-        }
-      }
-    }
-    
+          padding: "10px 20px",
+        },
+      },
+    },
   },
-
 
   breakpoints: {
     values: {
       xs: 0,
       sm: 600,
       md: 900,
-      lg: 1288, //1200, 
+      lg: 1288, //1200,
       xl: 1536,
     },
   },
